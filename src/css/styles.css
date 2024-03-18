@@ -25,7 +25,6 @@
 }
 body {
   display: flex;
-  justify-content: center;
   padding: 24px 156px;
 }
 .gallery {
@@ -119,4 +118,15 @@ body {
 
 .feedback-form button:hover {
   background-color: #6c8cff;
+}
+.close-button {
+  color: #4e75ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
